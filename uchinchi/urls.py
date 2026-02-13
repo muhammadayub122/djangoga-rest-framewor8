@@ -9,7 +9,7 @@ from .views import (
 )
 
 router = DefaultRouter()
-router.register(r"1", Salom1ViewSet)
+router.register(r"11", Salom1ViewSet)
 router.register(r"2", Salom2ViewSet, )
 router.register(r"3", Salom3ViewSet, )
 router.register(r"4", Salom4ViewSet)
